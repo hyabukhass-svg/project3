@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffaf7;
+  color: #2f2f2f;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f7c8d0;
+  color: #5a1f32;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav a {
+  color: #5a1f32;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  background-color: white;
+}
+
+.hero {
+  min-height: 420px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.hero h2 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #5a1f32;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #f7c8d0;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 55px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #5a1f32;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  max-width: 800px;
+  margin: 0 auto 15px;
+  font-size: 17px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #5a1f32;
+  margin: 15px 10px 8px;
+  font-size: 22px;
+}
+
+.card p {
+  padding: 0 18px;
+  font-size: 16px;
+}
+
+.price {
+  color: #24713c;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  background-color: #fdecef;
+  max-width: 100%;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.testimonial {
+  background-color: white;
+  width: 430px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial h4 {
+  color: #5a1f32;
+  margin-top: 15px;
+}
+
+.seasonal-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.seasonal-box img {
+  width: 50%;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.seasonal-box h3 {
+  color: #5a1f32;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.fun-detail {
+  color: #24713c;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.visit {
+  background-color: #fff1e6;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #5a1f32;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.about-page img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 14px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.about-page .button {
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero h2 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .seasonal-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .seasonal-box img {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .testimonial {
+    width: 100%;
+    max-width: 430px;
+  }
+}
